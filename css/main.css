@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  
+  /*--- navigation bar ---*/
+  
+  .navbar {
+    background:#04e776;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: rgb(16, 4, 70);
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  
+  .nav-link:hover {
+    color: rgb(228, 215, 215);
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }  
+  .header {
+    background-image: url('images/index.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
